@@ -1,3 +1,3 @@
  step1/npm-debug.log
- step1/node_module/*
- step1/build/*
+ step1/node_module
+ step1/build

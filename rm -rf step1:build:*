@@ -1,0 +1,5 @@
+rm -rf step1/build/*
+rm -rf step2/build/*
+rm -rf step3/build/*
+rm -rf step4/build/*
+rm -rf step5/build/*

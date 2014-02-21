@@ -11,12 +11,6 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     copy: {
-      css: {
-        expand: true,
-        cwd: config.css + '/',
-        src: '**',
-        dest: config.buildRoot + '/css/'
-      },
       index: {
         expand: true,
         cwd: config.root + '/',
@@ -37,7 +31,7 @@ module.exports = function(grunt) {
       },
       dist: {
         src: ['public/css/normalize.css', 'public/css/main.css'],
-        dest: 'build/css/main.js',
+        dest: 'build/css/main.css',
       },
     },
     replace: {

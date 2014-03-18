@@ -1,12 +1,14 @@
 Grunt-Presentation-2-19-2014
 ============================
 
+Please note: I'm in the process of adding Gulp to this. :)
+
 intro
 -----
 
 These 5 examples go over grunt and some basic usages. You can find out more about grunt and plugins at http://gruntjs.com/. I have listed below what plugins are used in each step. I encourage you to take a look through the individual repos and look at the options with each plugin.
 
-Steps
+Grunt Steps
 -----
 
 ### Step 1
@@ -39,6 +41,14 @@ Run jshint in order to test your code for quality and common mistakes.
 
 Have grunt run a task every time specified files are changed.
 [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
+
+Grunt Steps
+-----
+
+### Step 1
+
+Copy files
+[gulp-util](https://github.com/gulpjs/gulp-util)
 
 Additional Plugins To Check Out
 -------------------------------
